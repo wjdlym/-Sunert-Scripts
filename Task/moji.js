@@ -187,7 +187,7 @@ function HourlyReport() {
         $.desc += "   "+hours+":00  "+hourly_Skycon+"  "+ hourtemps+"  "+hourWinds +"\n"
       }
      if(reduction == 'true') { 
-        $.log("    "+hours+":00  "+hourweather+"  "+ hourtemps+"  "+hourWinds +"级")
+        $.log("    "+hours+":00  "+hourweather+"  "+ hourtemps+"  "+hourWinds)
       }
    }
 }
